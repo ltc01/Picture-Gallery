@@ -24,7 +24,7 @@ const Searchbar = () => {
    return (
         <div className='flex'>
             <input type="search"
-                className='bg-gray-50 border border-gray-300 text-sm w-96 indent-2 p-2.5 outline-none focus:border-blue-500 rounded-tl rounded-bl'
+                className='bg-gray-50 border border-gray-300 text-sm w-96 indent-2 p-2.5 outline-none focus:border-red-500 rounded-tl rounded-bl'
                 placeholder='Search anything...'
                 value={searchValue}
                 onChange={handleInputChange}
